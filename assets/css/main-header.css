@@ -1,0 +1,27 @@
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100vw;
+
+  background-color: #cf6a87;
+}
+
+.main-header .img-logo {
+  margin: 1rem;
+  margin-left: auto;
+  width: 3%;
+}
+
+.main-header .nav-menu {
+  margin-right: auto;
+  margin-left: 50rem;
+}
+
+.main-header .item-menu {
+  padding: 3rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
