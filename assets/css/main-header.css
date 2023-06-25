@@ -1,22 +1,20 @@
 .main-header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-
+  position: fixed;
   width: 100vw;
-
   background-color: #cf6a87;
 }
 
 .main-header .img-logo {
+  width: 3%;
   margin: 1rem;
   margin-left: auto;
-  width: 3%;
 }
 
 .main-header .nav-menu {
   margin-right: auto;
-  margin-left: 50rem;
+  margin-left: 30rem;
 }
 
 .main-header .item-menu {
