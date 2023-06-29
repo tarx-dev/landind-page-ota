@@ -4,6 +4,9 @@
   --gap: 3rem;
 }
 
+* {
+  box-sizing: border-box;
+}
 html {
   font-size: 62.5%;
 }
@@ -33,4 +36,15 @@ h2 {
 
 h3 {
   font-size: 4rem;
+}
+
+.container {
+  background-color: #23424a;
+  color: white;
+
+  width: 80%;
+  margin: 0 auto;
+
+  padding: 2em;
+  height: 300px;
 }
