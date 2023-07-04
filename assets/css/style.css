@@ -6,38 +6,48 @@
   --seconde-color:#136C72;
   --third-color:#38CFD9;
   --gap: 3rem;
+  font-size: 62.5%;
 
 }
 
 
-* {
+*, *::before, *::after{
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
 }
-
 
 body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 0;
 
 }
 
-html {
-  font-size: 62.5%;
-}
 
 
-.main-section {
+.hero {
   background-color: var(--first-color);
-  width: 100%;
-  padding-top: 14.8rem;
-  padding-bottom: 14.8rem;
-
-
+  color: #fff;
+  padding: 14.8rem 0;
 
 }
 
 
+.container {
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto;
+  border:2px solid yellow ;
+
+}
+
+
+.hero__text {
+ width: 50%;
+ border:2px solid rgb(0, 255, 255) ;
+  
+}
+
+
+/*
 
 .banner {
   width: 45%;
@@ -45,11 +55,17 @@ html {
   flex-direction: column;
   justify-content: center;
 
-  color: #fff;
-
   margin-left: 12.2rem;
 
 }
+
+
+
+
+
+
+
+/*
 
 .title {
   font-family :"Roboto Black", Helvetica, sans-serif ;
