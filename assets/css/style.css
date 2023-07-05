@@ -37,11 +37,11 @@ h1 {
 }
 
 .hero2 {
-  padding: 6rem 0;
+  padding: 3em 0;
+  text-align: center;
 }
 
 .hero2 .col {
-  text-align: center;
   line-height: 3rem;
 }
 
@@ -52,12 +52,12 @@ h1 {
 
 .hero3 {
   background-color: #136c72;
-  padding: 3rem 0;
+  padding: 3em 0;
   color: #fff;
+  text-align: center;
 }
 
 .hero3 .col {
-  text-align: center;
   line-height: 3rem;
 }
 
