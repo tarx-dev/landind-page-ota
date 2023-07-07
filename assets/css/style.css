@@ -30,23 +30,19 @@ img {
 
 header {
   background-color: #136c72;
-  padding: 0.5em 0;
+  padding: 1em 0;
 }
 
-.nav {
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
 .nav__list {
-  margin-left: 6em;
   padding: 0;
   list-style: none;
 
   display: flex;
-  justify-content: space-between;
-  width: 40%;
 }
 
+.nav__item {
+  margin-right: 2em;
+}
 .nav__link {
   color: #fff;
   text-decoration: none;
