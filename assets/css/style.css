@@ -33,6 +33,10 @@ header {
   padding: 1em 0;
 }
 
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
 .nav__list {
   padding: 0;
   list-style: none;
@@ -40,9 +44,10 @@ header {
   display: flex;
 }
 
-.nav__item {
-  margin-right: 2em;
+.nav__item + .nav__item {
+  margin-left: 2em;
 }
+
 .nav__link {
   color: #fff;
   text-decoration: none;
@@ -125,7 +130,7 @@ header {
 
 .main-container {
   margin-top: 3em;
-  margin-bo: 3em;
+  margin-bottom: 3em;
 }
 
 .sidebar {
